@@ -29,7 +29,7 @@ module.exports = (sequelize, DataTypes) => {
       },
     },
     {
-      tableName: "products",
+      tableName: "products", //ini merepresentasikan table "products" yg ada di database
     }
   );
   return Products;
